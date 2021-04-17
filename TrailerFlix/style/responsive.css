@@ -1,18 +1,28 @@
-@media screen and (max-width:700px){
-    header .container{
+@media screen and (max-width:700px){/* até 700px aplicar*/
+    header .container{/*menu superior*/
     display: flex;
-    flex-direction: column;
+    flex-direction: column;/*chegando em 700px joga pra baixo os menus*/
+   
+ 
     }
 
     .botao{
         margin-top: 5px;
+        margin-left: 20px;
         width: 300px;
+        height: 60px;
     }
 
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1000px){/*quando chegar no mínimo de 1000px aplicar*/
     .descricao{
         width: 50%;
+    }
+    .filme-principal{
+        font-size: 20px;
+        height:800px;
+        background-size:cover;
+        
     }
 }
